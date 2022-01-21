@@ -1,19 +1,19 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "ODUzNDI2NDE1MzUzMDY5NTc4.YMVNSQ.lyWrDhyM9wbei2tf5j4v0nrx06g",
 	/* For the support server */
 	support: {
-		id: "XXXXXXXXXXX", // The ID of the support server
-		logs: "XXXXXXXXXXX", // And the ID of the logs channel of your server (new servers for example)
+		id: "802390956363743232", // The ID of the support server
+		logs: "933493085382516776", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
 	dashboard: {
-		enabled: false, // whether the dashboard is enabled or not
+		enabled: true, // whether the dashboard is enabled or not
 		secret: "XXXXXXXXXXX", // Your discord client secret
 		baseURL: "https://dashboard.atlanta-bot.fr", // The base URl of the dashboard
 		logs: "XXXXXXXXXXX", // The channel ID of logs
 		port: 8080, // Dashboard port
-		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
+		expressSessionPassword: "SpottemW", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
 	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
@@ -25,14 +25,14 @@ module.exports = {
 	},
 	/* Bot's owner informations */
 	owner: {
-		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		id: "933493085382516776", // The ID of the bot's owner
+		name: "Spottem#9999" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
 		port: 5000, // The port for the server
-		password: "XXXXXXXXXXX", // The webhook auth that you have defined on discordbots.org
-		channel: "XXXXXXXXXXX" // The ID of the channel that in you want the votes logs
+		password: "SpottemW", // The webhook auth that you have defined on discordbots.org
+		channel: "933493085382516776" // The ID of the channel that in you want the votes logs
 	},
 	/* The API keys that are required for certain commands */
 	apiKeys: {
@@ -51,17 +51,17 @@ module.exports = {
 	},
 	/* The others utils links */
 	others: {
-		github: "https://github.com/Androz2091", // Founder's github account
-		donate: "https://patreon.com/Androz2091" // Donate link
+		github: "https://github.com/Goated223", // Founder's github account
+		donate: "https://patreon.com/muketsu" // Donate link
 	},
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
+			name: "@Spied help on {serversCount} servers",
 			type: "LISTENING"
 		},
 		{
-			name: "my website : atlanta-bot.fr",
+			name: "my website : Spies.com",
 			type: "PLAYING"
 		}
 	]
